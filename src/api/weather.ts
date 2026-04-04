@@ -2,7 +2,6 @@ import axios from 'axios';
 import { WeatherData, ForecastData, Units } from '../types/weather';
 
 const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
-console.log('API Key:', API_KEY); // Debugging line to check if the API key is loaded correctly
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 const apiClient = axios.create({
