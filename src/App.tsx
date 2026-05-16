@@ -137,7 +137,7 @@ export default function App() {
               <CloudRain className="w-8 h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-3xl font-black text-zinc-900 dark:text-zinc-100 tracking-tight">SkyCast</h1>
+              <h1 className="text-3xl font-black text-zinc-900 dark:text-zinc-100 tracking-tight" style={{ color: 'blue' }}>SkyCast</h1>
               <p className="text-xs font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest">Weather Dashboard</p>
             </div>
           </div>
